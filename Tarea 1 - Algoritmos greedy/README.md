@@ -14,7 +14,7 @@ LeetCode.
 ## 860. Lemonade Change
 
 - **Enlace:** https://leetcode.com/problems/lemonade-change/
-- **Código:** [Codigo\LemonadeChange.py](Codigo\LemonadeChange.py)
+- **Código:** [Codigo/LemonadeChange.py](/Tarea%201%20-%20Algoritmos%20greedy/Codigo/LemonadeChange.py)
 
 **Criterio greedy:** A cada cliente que paga con un billete de 20, se le
 prefiere dar el cambio con un billete de 10 y uno de 5 (en vez de tres
@@ -27,14 +27,14 @@ y si en algún punto no hay cambio posible, la respuesta es `false` de inmediato
 - **Complejidad de espacio:** `O(1)` — solo se guardan dos contadores
   (`five`, `ten`).
 
-![Captura — Lemonade Change](capturas/CapturaLemonadeChange.png)
+![Captura — Lemonade Change](/Tarea%201%20-%20Algoritmos%20greedy/Capturas/CapturaLemonadeChange.png)
 
 ---
 
 ## 455. Assign Cookies
 
 - **Enlace:** https://leetcode.com/problems/assign-cookies/
-- **Código:** [codigo/AssignCookies](codigo/AssignCookies.py)
+- **Código:** [codigo/AssignCookies](/Tarea%201%20-%20Algoritmos%20greedy/Codigo/AssignCookies.py)
 
 **Criterio greedy:** se ordenan `g` (factores de gula) y `s` (tamaños de
 galleta) de menor a mayor, y con dos punteros se asigna al niño menos
@@ -48,4 +48,4 @@ El recorrido con dos punteros es `O(n + m)`, pero queda dominado por el costo de
 - **Complejidad de espacio:** `O(1)` adicional adicional para los dos punteros
 (sin contar el espacio que use internamente el algoritmo de ordenamiento).
 
-![Captura — Assign Cookies](capturas/CapturaAssignCookies.png)
+![Captura — Assign Cookies](/Tarea%201%20-%20Algoritmos%20greedy/Capturas/CapturaAssignCookies.png)
